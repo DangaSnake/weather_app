@@ -36,3 +36,16 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .main-title {
+        font-size: 20px;
+        width: 80vw;
+        right: 250px;
+    }
+
+    .sub-text {
+        left: 80px;
+        top: 350px;
+    }
+}

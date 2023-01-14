@@ -35,3 +35,27 @@
 
 
 }
+
+@media screen and (max-width: 800px) {
+    .pointer-box {
+        right: 50px;
+    }
+
+    .pointer-text {
+        font-size: 12px;
+        width: 150px;
+    }
+
+    @keyframes tip-move {
+        0% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateY(-23px) ;
+        }
+        
+    }
+}
