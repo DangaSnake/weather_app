@@ -41,7 +41,9 @@
     .main-title {
         font-size: 18px;
         width: 80vw;
-        left: 10px;
+        margin-left: 2vw;
+        
+
     }
 
     .sub-text {
