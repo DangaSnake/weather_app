@@ -16,5 +16,7 @@ code {
 @media screen and (max-width: 800px) {
   body {
     height: 120vh;
+    width: 100vw;
+    overflow-x: hidden;
   }
 }
