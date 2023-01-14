@@ -48,4 +48,8 @@
         left: 80px;
         top: 350px;
     }
+
+    .presearch-box {
+        width: 100vw;
+    }
 }

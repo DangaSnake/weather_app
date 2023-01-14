@@ -19,5 +19,6 @@ code {
     width: 100vw;
     overflow-x: hidden !important;
     background-image: url(/public/grass-ski-mobile.jpg);
+    background-repeat: no-repeat;
   }
 }
