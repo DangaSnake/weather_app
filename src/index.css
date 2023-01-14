@@ -18,11 +18,10 @@ code {
     height: 120vh;
     width: 100vw;
     overflow-x: hidden !important;
-    background-image: url(/public/grass-sky.jpg);
+    background-image: url(/public/grass-sky-mobile.jpg);
     background-repeat: no-repeat;
   }
 
-  
 
 
 }
