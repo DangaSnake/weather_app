@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/weather_app/static/css/main.11721256.css",
+    "main.css": "/weather_app/static/css/main.60ff3a45.css",
     "main.js": "/weather_app/static/js/main.8cf8644e.js",
     "static/js/787.252c5a3f.chunk.js": "/weather_app/static/js/787.252c5a3f.chunk.js",
     "static/media/grass-sky.jpg": "/weather_app/static/media/grass-sky.0fb19f5c44c001deb22d.jpg",
-    "static/media/grass-ski-mobile.jpg": "/weather_app/static/media/grass-ski-mobile.ab8e289ac73ebaf70521.jpg",
     "index.html": "/weather_app/index.html",
-    "main.11721256.css.map": "/weather_app/static/css/main.11721256.css.map",
+    "main.60ff3a45.css.map": "/weather_app/static/css/main.60ff3a45.css.map",
     "main.8cf8644e.js.map": "/weather_app/static/js/main.8cf8644e.js.map",
     "787.252c5a3f.chunk.js.map": "/weather_app/static/js/787.252c5a3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11721256.css",
+    "static/css/main.60ff3a45.css",
     "static/js/main.8cf8644e.js"
   ]
 }
