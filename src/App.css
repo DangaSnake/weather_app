@@ -6,3 +6,9 @@
 html {
   scrollbar-width: none;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 100vw;
+  }
+}
