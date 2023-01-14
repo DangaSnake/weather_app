@@ -1,0 +1,134 @@
+.title {
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: #f5a61b;
+    animation-name: fade-in-text;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+@keyframes fade-in-text {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.daily-item {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 20px;
+    transition: transform 0.1s ease-in-out;
+    transform: translateX(-1400px);
+}
+
+.daily-item:hover {
+    transform: scale(1.01) !important;
+}
+
+.icon-small {
+    width: 40px;
+}
+
+.day {
+    color: #212121;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+
+}
+
+.description {
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.min-max {
+    color: #757575;
+}
+
+.daily-details-grid {
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    column-gap: 15px;
+    row-gap: 0;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    transform-origin: top;
+    animation-name: details-grow;
+}
+
+
+@keyframes details-grow {
+    0% {
+        transform: scaleY(0);
+    }
+    
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+.daily-details-grid-item {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daily-details-grid-item label:first-child {
+    color: #121111;
+}
+
+.daily-details-grid-item label:last-child {
+    color: #212121;
+}
+
+.accordion-item-animation {
+    animation-name: accordion-move-in;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes accordion-move-in {
+    0% {
+        transform: translateX(-1400px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+    
+}
+
+.accordion-panel {
+    transition: height .3s ease-in-out;
+    overflow: hidden;
+ 
+}
+

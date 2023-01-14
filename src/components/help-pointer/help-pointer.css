@@ -1,0 +1,37 @@
+.pointer-box {
+    position: absolute;
+    top: 336px;
+    right: 240px;
+}
+
+.pointer-text {
+    position: absolute;
+    display: block;
+    right: 0px;
+    width: 100px;
+    z-index: -1;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 6px 6px;
+    text-align: center;
+    animation-name: tip-move;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 4.5s;
+    opacity: 0;
+}
+
+
+@keyframes tip-move {
+    0% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-43px) ;
+    }
+
+
+}
