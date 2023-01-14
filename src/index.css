@@ -18,7 +18,11 @@ code {
     height: 120vh;
     width: 100vw;
     overflow-x: hidden !important;
-    background-image: url(/public/grass-ski-mobile.jpg);
+    background-image: url(/public/grass-sky.jpg);
     background-repeat: no-repeat;
   }
+
+  
+
+
 }
