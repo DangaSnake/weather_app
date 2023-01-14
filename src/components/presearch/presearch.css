@@ -39,14 +39,14 @@
 
 @media screen and (max-width: 800px) {
     .main-title {
-        font-size: 20px;
+        font-size: 18px;
         width: 80vw;
-        right: 250px;
+        left: 10px;
     }
 
     .sub-text {
-        left: 80px;
-        top: 350px;
+        left: 40px;
+        top: 330px;
     }
 
     .presearch-box {
