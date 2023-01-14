@@ -41,17 +41,17 @@
     .main-title {
         font-size: 18px;
         width: 80vw;
-        margin-left: 2vw;
         
 
     }
 
     .sub-text {
-        left: 40px;
-        top: 330px;
+        top: 330px !important;
+        left: 0px;
     }
 
     .presearch-box {
         width: 100vw;
+        text-align: center;
     }
 }
